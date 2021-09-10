@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.main{
+    display: flex;
+   justify-content: space-between;
+   padding: 5px;
+}
+.albums__title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+.albums__list {
+    padding: 10px;
+    cursor: pointer;
+}
+.albums__list-item {
+    padding: 10px;
+    font-size: 24px;
+}
+.photos__title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+.photos__img {
+    margin: 5px;
+    margin-top: 0px;
+}
