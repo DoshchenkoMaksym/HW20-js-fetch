@@ -13,8 +13,14 @@ html,body {
 
 .main{
     display: flex;
-   justify-content: space-between;
    padding: 5px;
+}
+.albums {
+    flex-shrink: 0;
+}
+.photos {
+    width: 100%;
+    text-align: center;
 }
 .albums__title {
     text-align: center;
